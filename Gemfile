@@ -11,11 +11,12 @@ gem 'sqlite3', group: [:development, :test]
 # Use postgres as the database for production
 gem 'pg', group: :production
 
-#Add rails 12 factor for Heroku in prodcution
+# Add rails 12 factor for Heroku in prodcution
 gem 'rails_12factor', group: :production
-#Add bootstrap for css
+#A dd bootstrap for css
 gem 'bootstrap-sass'
-
+# Use stripe for e-commerce payments
+gem 'stripe', :git => 'https://github.com/stripe/stripe-ruby'
 # Use SCSS for stylesheets
 gem 'sass-rails', '~> 5.0'
 # Use Uglifier as compressor for JavaScript assets
